@@ -8,6 +8,7 @@ public class Calculator
             '-' => Subtract(x, y),
             '*' => Multiply(x, y),
             '/' => Divide(x, y),
+            '^' => Power(x, y),
             _ => throw new ArgumentException("Invalid operator", nameof(op))
         };
     }
@@ -18,4 +19,8 @@ public class Calculator
 
     public float Multiply(float a, float b) => a * b;
     public float Divide(float a, float b) => a / b;
+    public float Power(float baseNumber, float exponent)
+    {
+        return (float)Math.Pow(baseNumber, exponent);
+    }
 }
