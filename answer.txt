@@ -1,0 +1,34 @@
+
+2) 
+main
+darktheme
+documentation
+mdDocs
+tests
+5 коммитов
+ хэш первого коммита : a18e3537ad52c7da6d326e2cc614b5e4abc8557c
+ хэщ коммита docum : edc48cf77ca7288fcebb211e6e7d132b0e24a0bd
+
+body {color: black; }
+ p { color: blueviolet; }
+
+
+РАЗНИЦА КОММИТОВ
+diff --git a/Docs/index.html b/Docs/index.html
+index fd40b3c..5f1f9bd 100644
+--- a/Docs/index.html
++++ b/Docs/index.html
+@@ -9,6 +9,7 @@
+         <br>
+         <h1>Простой калькулятор</h1>
+         <p>Функциональные возможности: сложение, вычитание, умножение двух операндов</p>
++        <p>Ограничения: испоняющая среда .net 9.0</p>
+         <script src="script.js"></script>
+     </body>
+ </html>
+
+
+ изменились CalcCLI/Calculator.cs и CalcCLI/Program.cs
+
+
+ 
